@@ -12,15 +12,13 @@ body {
   padding: 20px;
 }
 
-
 header {
   max-width: 600px;
   margin-bottom: 20px;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.2); 
   padding: 20px;
   border-radius: 10px;
 }
-
 
 header h1 {
   font-size: 28px;
@@ -41,7 +39,6 @@ header img {
   opacity: 0.9;
   border-radius: 10px;
 }
-
 
 form {
   max-width: 400px;
@@ -71,7 +68,6 @@ input, textarea {
   font-family: inherit;
 }
 
-
 button {
   background-color: #32cd32; 
   color: #000;
@@ -84,11 +80,13 @@ button {
 }
 
 button:hover {
-  background-color: #2eb82e; 
+  background-color: #2eb82e;
   transform: scale(1.05);
 }
 
-
+.hidden {
+  display: none;
+}
 
 @media (min-width: 600px) {
   form {
