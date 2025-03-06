@@ -9,3 +9,29 @@
   <script src="script.js" async></script>
 </head>
 <body>
+
+  <header>
+    <h1>Be notified of the anticipated album announcement</h1>
+    <p>Sign up for exclusive updates.</p>
+    <img src="blondefrankpic.png" alt="Frank Ocean Blonde Cover">
+  </header>
+
+  <main>
+    <form id="signup-form">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="reason">Why are you excited? (optional)</label>
+      <textarea id="reason" name="reason" rows="3"></textarea>
+
+      <button type="submit">Sign Up</button>
+    </form>
+
+    <p id="confirmation-message" class="hidden">Thank you for signing up!</p>
+  </main>
+
+</body>
+</html>
